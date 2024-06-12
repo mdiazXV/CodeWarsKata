@@ -34,11 +34,12 @@ For example (Input -> Output):
 2 -> 3 (1 + 2)
 8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)*/
 
+//Soltution Below:
 int summation(int num){
   int x=1 ;
   int y = num ;
   int sum=0;
-  
+
   for (x=1; x<=y; x++){
     sum+=x;
   }
